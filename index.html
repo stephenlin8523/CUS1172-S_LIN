@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+  <!-- Internal CSS styles -->
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    main {
+      margin: 10px;
+    }
+
+    /* Navigation Bar / Menu Styles */
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-self: start;
+      align-items: center;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    /* Menu Item Styles */
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Menu Item Hover State Styles */
+    nav li a:hover {
+      background-color: rgb(246, 240, 240);
+      color: #000;
+      text-decoration: none;
+    }
+
+    img {
+      /* Floating image to the left */
+      float: left;
+      margin: 0 10px;
+    }
+
+    /* Clear Float */
+    .clear {
+      clear: both;
+    }
+
+    /* Link Styles */
+    a {
+      text-decoration: none;
+      color: blue;
+      cursor: pointer;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      color: #000;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navigation / Menu Section -->
+    <nav>
+      <!-- Menu / Unordered List -->
+      <ul>
+        <!-- List Items / Menu Links -->
+        <li><a href="#section_one">Go to Section one</a></li>
+        <li><a href="#section_two">Go to Section two</a></li>
+        <li><a href="#section_three">Go to Section three</a></li>
+        <li><a href="#section_four">Go to Section four</a></li>
+        <li><a href="#section_five">Go to Section five</a></li>
+        <li><a href="#section_six">Go to Section six</a></li>
+        <li><a href="#section_seven">Go to Section seven</a></li>
+        <li><a href="#section_eight">Go to Section eight</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>My Personal Profile Webpage</h1>
+
+    <!-- First Section -->
+    <div id="section_one">
+      <h2>This is Basic Profile Information Section</h2>
+      <h3>John Max with <span>Computer Science</span> as major and history as minor</h3>
+      <img src="https://amymhaddad.s3.amazonaws.com/oriental-tiles.png" alt="Online hosted input device image"
+        height="100" width="100">
+      <p><strong>About me:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis
+        atque, est in hic illum fuga sequi dolores laboriosam eveniet vel sint dolorum qui voluptatum id? Expedita
+        eligendi, modi atque, porro minima sapiente vel doloribus quasi, iusto quos vero.</p>
+      <div class="clear"></div>
+    </div>
+
+    <!-- Second Section -->
+    <div id="section_two">
+      <h2>This is Education Summary Section</h2>
+      <h3>About my Education</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, qui odit illo vitae cumque dolor! Ut id
+        sapiente ab ullam nostrum esse odit itaque, unde, eligendi perferendis dolorem, rem culpa! Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit. Laborum quibusdam ullam minus illum enim, exercitationem debitis
+        provident omnis eligendi veritatis!</p>
+      <h3>List of my Degrees or Diplomas</h3>
+      <ol>
+        <li>Computer Science</li>
+        <li>Software Agile Methods</li>
+        <li>Diploma in Machine Learning</li>
+        <li>Networking Diploma</li>
+      </ol>
+    </div>
+
+    <!-- Third Section -->
+    <div id="section_three">
+      <h2>This is Work Experience/Internships Section</h2>
+      <h3>About my Work Experience</h3>
+      <h2>A bullet-point list of my Work Experience</h2>
+      <ul>
+        <li>2 years in software firm as a software engineer</li>
+        <li>3 years in software firm as a software designer</li>
+        <li>6 months in software firm as a software tester</li>
+        <li>1 year in software firm as a data engineer</li>
+      </ul>
+    </div>
+
+    <!-- Fourth Section -->
+    <div id="section_four">
+      <h2>This is Programming Skills Section</h2>
+      <h3>Summary about my Programming Skills</h3>
+      <p>I know Python, C, C++, Java, and many other languages. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Numquam inventore rerum ducimus. Quisquam aliquam necessitatibus sed sunt sit animi, deleniti omnis hic facere
+        perspiciatis, ducimus voluptates ad reiciendis. Tempore sint quidem itaque blanditiis corrupti quo sed
+        molestiae. Tempora, porro voluptas.</p>
+      <h3>List of my Programming Skills in Different Languages with Experience</h3>
+      <ol type="i">
+        <li>Java - 2 yrs</li>
+        <li>C - 1 yr</li>
+        <li>JavaScript - 2 yrs</li>
+        <li>Python - 1 yr</li>
+      </ol>
+    </div>
+
+    <!-- Fifth Section -->
+    <div id="section_five">
+      <h2>This is General Interests Section</h2>
+      <h3>About my General Interests and Hobbies</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, qui odit illo vitae cumque dolor! Ut id
+        sapiente ab ullam nostrum esse odit itaque, unde, eligendi perferendis dolorem, rem culpa! Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit. Laborum quibusdam ullam minus illum enim, exercitationem debitis
+        provident omnis eligendi veritatis!</p>
+      <h3>List of my General Interests and Hobbies</h3>
+      <ol type="a">
+        <li>Soccer</li>
+        <li>Playing Lawn Tennis</li>
+        <li>Listening to Music</li>
+        <li>Visiting and Exploring Different and New Places</li>
+      </ol>
+    </div>
+
+    <!-- Sixth Section -->
+    <div id="section_six">
+      <h2>This is Favorite Song, Film, and TV Show Section</h2>
+      <h3>About my Favorite Song, Film, and TV Show</h3>
+      <p>My favorite song is abc, and its video is below</p>
+      <video width="320" height="240" autoplay controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video> <br>
+      <p>My favorite movie is abcd, and its video is below</p>
+      <video width="320" height="240" autoplay controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video> <br>
+      <p>My favorite TV show is abcdef, and its video is below</p>
+      <video width="320" height="240" autoplay controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video> <br>
+    </div>
+
+    <!-- Seventh Section -->
+    <div id="section_seven">
+      <h2>This is Favorite Website Section</h2>
+      <h3>About my Favorite Website</h3>
+      <h4>My favorite websites are below</h4>
+      <p>Website one: This Website is about Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, beatae!
+      </p>
+      <a href="#websiteone_link" target="_blank">Website One</a> <br>
+      <p>Website two: This Website is about Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, beatae!
+      </p>
+      <a href="#websitetwo_link" target="_blank">Website Two</a>
+    </div>
+
+    <!-- Eighth Section -->
+    <div id="section_eight">
+      <h2>This is Section about My Projects in This Course</h2>
+      <h3>About my Projects in This Course</h3>
+      <h4>My projects in this course are below</h4>
+      <form action="">
+        <table>
+          <tr>
+            <th>Index</th>
+            <th>Project</th>
+            <th>Progress</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Project 1</td>
+            <td><input type="text" name="" id=""></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Project 2 this project <a href="index.html">This project</a></td>
+            <td><input type="text" name="" id=""> <input type="submit" value="Change"></td>
+          </tr>
+        </table>
+      </form>
